@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE_NAME = "lisandrodev/simple-nodejs"
+        DOCKER_IMAGE_NAME = "gvalva/simple-nodejs"
         DEPLOY_SERVER = "192.168.0.5"
-        DEPLOY_USER = "lisandro"
+        DEPLOY_USER = "gaston"
     }
 
     stages {
